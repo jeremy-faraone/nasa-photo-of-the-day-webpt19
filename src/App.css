@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-image: url("./Images/nasa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .App-logo {
@@ -35,4 +40,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+.card-title {
+  color: black;
+  text-shadow: 1px 1px red;
 }
